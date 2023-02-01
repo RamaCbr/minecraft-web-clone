@@ -354,6 +354,12 @@ template {
 	--white: #ffff;
 	--black: #171515;
 	--green: #a0e081;
+	--secondary-green: #3c8527;
 	--main-font: "Noto Sans", sans-serif;
 	--secondary-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+	background-color: #000;
+	font-family: var(--main-font);
 }

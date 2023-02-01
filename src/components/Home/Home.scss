@@ -1,0 +1,67 @@
+.Home {
+	background: url("https://www.minecraft.net/content/dam/minecraft/home/home-hero-1200x600.jpg")
+		no-repeat;
+	background-position: top center;
+	color: white;
+	height: calc(100vh - 28px);
+	max-width: 1328px;
+	margin: 0 auto;
+
+	&-container {
+		display: flex;
+		flex-direction: column;
+		max-width: 33.75rem;
+		padding: 100px;
+
+		@media only screen and (max-width: 768px) {
+			& {
+				justify-content: center;
+				width: unset;
+			}
+		}
+
+		@media only screen and (max-width: 480px) {
+			& {
+				padding: 30px 20px 0 20px;
+			}
+		}
+	}
+
+	&-text-wrapper {
+		width: fit-content;
+	}
+
+	&-title {
+		margin: 0;
+		font-size: 2.25rem;
+		font-weight: bolder;
+		line-height: 40px;
+		letter-spacing: 1px;
+	}
+
+	&-subtitle {
+		font-size: 1.125rem;
+	}
+
+	&-button {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-family: var(--main-font);
+		background-color: var(--secondary-green);
+		color: var(--white);
+		font-size: 1.125rem;
+		font-weight: bolder;
+		align-self: center;
+		min-width: 15.75rem;
+		height: 3.8937rem;
+		padding: 1rem 1.5rem;
+		line-height: 1.25rem;
+		letter-spacing: 0.03rem;
+		cursor: pointer;
+		border: none;
+		align-self: flex-start;
+		text-shadow: 0 2 0 #2a641c;
+		box-shadow: inset 0 4px #52a535, inset 0 -4px #2a641c, 0 4px #00000040;
+	}
+}
