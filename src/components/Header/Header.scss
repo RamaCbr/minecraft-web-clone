@@ -1,0 +1,135 @@
+.Header {
+	&-top {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		background-color: rgb(0, 0, 0);
+		padding: 9px 30px;
+		font-size: 12px;
+
+		@media only screen and (max-width: 577px) {
+			& {
+				justify-content: center;
+			}
+		}
+	}
+
+	&-bottom {
+		display: flex;
+		justify-content: space-between;
+		padding: 0 13px;
+		height: 83px;
+		background-color: var(--black);
+
+		@media only screen and (max-width: 830px) {
+			flex-direction: column;
+			align-items: center;
+			gap: 1rem;
+			height: 100%;
+			padding: 1rem;
+		}
+	}
+}
+
+.Header-top {
+	&-a {
+		font-family: var(--secondary-font);
+		color: var(--green);
+		text-decoration: none;
+		height: max-content;
+
+		&:hover {
+			color: var(--white);
+			text-decoration: underline;
+		}
+	}
+
+	&-ul {
+		display: flex;
+		gap: 30px;
+		margin: 0;
+		height: max-content;
+
+		@media only screen and (max-width: 577px) {
+			& {
+				display: none;
+			}
+		}
+	}
+
+	&-link {
+		font-family: var(--main-font);
+		font-weight: bolder;
+		text-decoration: none;
+		color: var(--green);
+		transition: color 0.2s;
+
+		&:hover {
+			color: var(--white);
+		}
+	}
+}
+
+.Header-bottom {
+	&-nav {
+		width: max-content;
+	}
+
+	&-ul {
+		display: flex;
+		justify-content: start;
+		padding: 0;
+		margin: 0;
+		height: 100%;
+		align-items: center;
+		list-style: none;
+		gap: 2rem;
+
+		@media only screen and (max-width: 330px) {
+			gap: 0.7rem;
+		}
+	}
+
+	&-a {
+		font-family: var(--main-font);
+		font-size: 12px;
+		text-decoration: none;
+		font-weight: bolder;
+		color: var(--white);
+		transition: color 0.2s;
+
+		&:hover {
+			color: var(--green);
+		}
+	}
+
+	&-img {
+		max-width: 300px;
+		height: 40px;
+		align-self: center;
+	}
+
+	&-button {
+		display: flex;
+		align-items: center;
+		font-family: var(--main-font);
+		background-color: #3c8527;
+		color: var(--white);
+		font-size: 1.125rem;
+		font-weight: bolder;
+		align-self: center;
+		min-width: 9.3rem;
+		height: 3.125rem;
+		padding: 1rem 1.5rem;
+		line-height: 1.25rem;
+		letter-spacing: 0.03rem;
+		cursor: pointer;
+		border: solid 0.125rem #262423;
+		text-shadow: 0 2 0 #2a641c;
+		box-shadow: inset 0 4px #52a535, inset 0 -4px #2a641c, 0 4px #00000040;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+}
