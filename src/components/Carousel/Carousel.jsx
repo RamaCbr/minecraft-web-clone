@@ -1,3 +1,4 @@
+import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import "./Carousel.scss";
 
 export default function Carousel({
@@ -9,7 +10,7 @@ export default function Carousel({
 	return (
 		<div className="Carousel">
 			<div className="Carousel-arrow" onClick={decreaseIndexHandler}>
-				<i className="fa-solid fa-arrow-left"></i>
+				<FaArrowLeft />
 			</div>
 			{data.map(({ id, img, title, subtitle }) => {
 				if (selectedIndex === id) {
@@ -31,7 +32,7 @@ export default function Carousel({
 				}
 			})}
 			<div className="Carousel-arrow" onClick={increaseIndexHandler}>
-				<i className="fa-sharp fa-solid fa-arrow-right"></i>
+				<FaArrowRight />
 			</div>
 		</div>
 	);
