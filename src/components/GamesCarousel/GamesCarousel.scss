@@ -1,0 +1,38 @@
+.GamesCarousel {
+	display: grid;
+	place-content: center;
+	background: url("https://www.minecraft.net/content/dam/minecraft/backgrounds/bg-wool-dark.png")
+		repeat;
+	background-position: center;
+	overflow: hidden;
+	padding: 50px 0;
+
+	@media only screen and (max-width: 425px) {
+		& {
+			padding: 0;
+		}
+	}
+
+	&-wrapper {
+		background-color: var(--white);
+		display: flex;
+		padding: 3rem;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+		@media only screen and (max-width: 425px) {
+			& {
+				padding: 0 3rem;
+			}
+		}
+	}
+
+	&-title {
+		@media only screen and (max-width: 500px) {
+			& {
+				font-size: 0.1rem;
+			}
+		}
+	}
+}

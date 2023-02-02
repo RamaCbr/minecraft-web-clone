@@ -1,4 +1,4 @@
-import { Header, Home } from "./components";
+import { Header, Home, GamesCarousel } from "./components";
 
 function App() {
 	return (
@@ -6,6 +6,7 @@ function App() {
 			<Header />
 			<main>
 				<Home />
+				<GamesCarousel />
 			</main>
 		</>
 	);
