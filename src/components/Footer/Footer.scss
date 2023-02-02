@@ -24,5 +24,12 @@
 		background-color: var(--white);
 		border-radius: 100%;
 		padding: 2px;
+		cursor: pointer;
+		transition: all 0.2s;
+
+		&:hover {
+			background-color: #000;
+			color: var(--white);
+		}
 	}
 }
