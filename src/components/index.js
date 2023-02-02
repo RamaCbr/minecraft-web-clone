@@ -3,4 +3,5 @@ import Home from "./Home/Home";
 import GamesCarousel from "./GamesCarousel/GamesCarousel";
 import NewsCarousel from "./NewsCarousel/NewsCarousel";
 import Games from "./Games/Games";
-export { Header, Home, GamesCarousel, NewsCarousel, Games };
+import CommunityCreations from "./CommunityCreations/CommunityCreations";
+export { Header, Home, GamesCarousel, NewsCarousel, Games, CommunityCreations };

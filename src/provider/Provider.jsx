@@ -72,6 +72,30 @@ const data = {
 			subtitle: "A Minecraft Preview Changelog!",
 		},
 	],
+	communityCreations: [
+		{
+			id: uuidv4(),
+			img: "https://www.minecraft.net/content/dam/games/minecraft/screenshots/23w05a_1x1.jpg",
+			category: "NEWS",
+			title: "Minecraft Snapshot 23w05a",
+			description: "A Minecraft Java Snapshot",
+		},
+		{
+			id: uuidv4(),
+			img: "https://www.minecraft.net/content/dam/games/minecraft/screenshots/Minecraft_Camp%20Enderwood_.net_277x277.jpg",
+			category: "MERCH",
+			title: "Welcome to Camp Enderwood",
+			description:
+				"Sign up for a free DLC adventure and a new Creator Series collection!",
+		},
+		{
+			id: uuidv4(),
+			img: "https://www.minecraft.net/content/dam/games/minecraft/realms/java_realms_january23_277x277.jpg",
+			category: "NEWS",
+			title: "New on Java Realms: Fighting Words",
+			description: "8 maps to write home about!",
+		},
+	],
 };
 
 export const GlobalContext = createContext();

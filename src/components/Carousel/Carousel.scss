@@ -60,5 +60,11 @@
 		@media only screen and (max-width: 425px) {
 			display: none;
 		}
+
+		&:hover {
+			background-color: #262423;
+			box-shadow: unset;
+			outline: solid 1px var(--white);
+		}
 	}
 }

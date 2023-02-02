@@ -9,7 +9,7 @@ export default function Carousel({
 	return (
 		<div className="Carousel">
 			<div className="Carousel-arrow" onClick={decreaseIndexHandler}>
-				-
+				<i class="fa-solid fa-arrow-left"></i>
 			</div>
 			{data.map(({ id, img, title, subtitle }) => {
 				if (selectedIndex === id) {
@@ -31,7 +31,7 @@ export default function Carousel({
 				}
 			})}
 			<div className="Carousel-arrow" onClick={increaseIndexHandler}>
-				+
+				<i class="fa-sharp fa-solid fa-arrow-right"></i>
 			</div>
 		</div>
 	);
