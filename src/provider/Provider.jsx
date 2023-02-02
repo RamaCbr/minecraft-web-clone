@@ -45,6 +45,33 @@ const data = {
 				"A game-based learning platform supporting thousands of educators in over 100 countries!",
 		},
 	],
+	newsCarousel: [
+		{
+			id: 0,
+			img: "https://www.minecraft.net/content/dam/games/badger/key-art/MinecraftLegends_DeluxeEdition_NetBlogEditorial_440x250_final.jpg",
+			title: "Minecraft Legends official release date",
+			subtitle: "Coming to multiple platforms on April 18",
+		},
+		{
+			id: 1,
+			img: "https://www.minecraft.net/content/dam/games/minecraft/screenshots/Minecraft_Camp%20Enderwood_.net_440x250.jpg",
+			title: "Welcome to Camp Enderwood",
+			subtitle:
+				"Sign up for a free DLC adventure and a new Creator Series collection!",
+		},
+		{
+			id: 2,
+			img: "https://www.minecraft.net/content/dam/games/minecraft/realms/java_realms_january23_440x250.jpg",
+			title: "New on Java Realms: Fighting Words",
+			subtitle: "8 maps to write home about!",
+		},
+		{
+			id: 3,
+			img: "https://www.minecraft.net/content/dam/games/minecraft/screenshots/beta19U7-car.jpg",
+			title: "Minecraft Preview 1.19.70.20",
+			subtitle: "A Minecraft Preview Changelog!",
+		},
+	],
 };
 
 export const GlobalContext = createContext();

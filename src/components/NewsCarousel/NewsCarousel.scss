@@ -1,0 +1,33 @@
+.NewsCarousel {
+	background: url("https://www.minecraft.net/content/dam/minecraft/backgrounds/bg-wool-dark.png")
+		repeat;
+	background-position: center;
+
+	&-title {
+		margin: 0 0 1.25rem 0;
+		font-size: 1.75rem;
+		text-align: center;
+		color: var(--white);
+	}
+
+	&-wrapper {
+		display: flex;
+		justify-content: center;
+	}
+
+	.Carousel-img {
+		width: 350px;
+	}
+
+	.Carousel-item-title {
+		color: var(--white);
+		font-size: 1.5rem;
+		font-weight: bolder;
+	}
+
+	.Carousel-item-subtitle {
+		color: var(--white);
+		font-size: 0.9375rem;
+		font-weight: bolder;
+	}
+}
