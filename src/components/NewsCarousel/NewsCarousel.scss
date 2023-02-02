@@ -19,6 +19,10 @@
 		width: 350px;
 	}
 
+	.Carousel-item--loaded {
+		align-items: flex-start;
+	}
+
 	.Carousel-item-title {
 		color: var(--white);
 		font-size: 1.5rem;
