@@ -1,7 +1,7 @@
 {
 	"name": "minecraft-web-clone",
 	"private": true,
-	"version": "7.0.0",
+	"version": "8.0.0",
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
@@ -11,6 +11,7 @@
 	"dependencies": {
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
+		"react-icons": "^4.7.1",
 		"uuid": "^9.0.0"
 	},
 	"devDependencies": {

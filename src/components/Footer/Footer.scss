@@ -1,0 +1,28 @@
+.Footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #000;
+	height: 141px;
+	padding: 19px 0 9px 0;
+
+	&-title {
+		color: var(--white);
+	}
+
+	&-social {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 3.5rem;
+		height: 100%;
+		width: 100%;
+	}
+
+	&-icon {
+		background-color: var(--white);
+		border-radius: 100%;
+		padding: 2px;
+	}
+}

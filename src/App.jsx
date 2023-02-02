@@ -5,6 +5,7 @@ import {
 	NewsCarousel,
 	Games,
 	CommunityCreations,
+	Footer,
 } from "./components";
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
 				<Games />
 				<CommunityCreations />
 			</main>
+			<footer>
+				<Footer />
+			</footer>
 		</>
 	);
 }
