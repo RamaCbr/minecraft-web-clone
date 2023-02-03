@@ -1,14 +1,8 @@
 import "./CommunityItem.scss";
 
-export default function CommunityItem({
-	id,
-	img,
-	category,
-	title,
-	description,
-}) {
+export default function CommunityItem({ img, category, title, description }) {
 	return (
-		<picture className="CommunityItem" key={id}>
+		<picture className="CommunityItem">
 			<source media="min-width: 70px" srcSet={img}></source>
 			<img role="presentation" className="CommunityItem-img" src={img} />
 			<div className="CommunityItem-SlidingContent">

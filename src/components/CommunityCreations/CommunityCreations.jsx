@@ -27,7 +27,7 @@ export default function CommunityCreations() {
 				</div>
 				<div className="CommunityCreations-images-wrapper">
 					{communityCreations.map((item) => (
-						<CommunityItem {...item} />
+						<CommunityItem key={item.id} {...item} />
 					))}
 				</div>
 				<CommunityBottom />
